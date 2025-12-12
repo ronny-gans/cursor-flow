@@ -146,6 +146,10 @@ App.tsx                   Main UI and timeline logic
 Start Cursor Flow.command macOS launcher
 ```
 
-## License
+---
 
-[Apache 2.0](LICENSE)
+If you like this project, please give it a star ⭐
+
+For questions, feedback, or support, reach out to:
+
+[Artem KK](https://www.linkedin.com/in/kazkozdev/) | [Apache 2.0](LICENSE)
