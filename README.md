@@ -15,6 +15,9 @@ Desktop (Electron) screen recorder + timeline editor.
 - Not a live streaming tool.
 - Not a browser app; development and usage are desktop-first (Electron).
 
+<img width="1390" height="945" alt="Screenshot 2025-12-12 at 16 33 46" src="https://github.com/user-attachments/assets/cb52c819-633d-4cf2-a6c7-e9f5de8ea594" />
+
+
 ## Alternatives
 
 Closest tools, depending on what you need:
