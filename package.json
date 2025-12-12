@@ -1,0 +1,52 @@
+{
+  "name": "copy-of-screen-studio-simulator",
+  "private": true,
+  "version": "0.0.0",
+  "main": "electron/main.js",
+  "build": {
+    "appId": "com.screenstudio.simulator",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ]
+  },
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:3000 && electron-forge start\"",
+    "start": "electron-forge start",
+    "build": "vite build",
+    "package": "vite build && electron-forge package",
+    "make": "vite build && electron-forge make"
+  },
+  "dependencies": {
+    "@google/genai": "^1.32.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "framer-motion": "^12.23.25",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.10.2",
+    "@electron-forge/maker-dmg": "^7.10.2",
+    "@electron-forge/maker-deb": "^7.10.2",
+    "@electron-forge/maker-rpm": "^7.10.2",
+    "@electron-forge/maker-squirrel": "^7.10.2",
+    "@electron-forge/maker-zip": "^7.10.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.10.2",
+    "@electron-forge/plugin-fuses": "^7.10.2",
+    "@electron-forge/plugin-vite": "^7.10.2",
+    "@electron/fuses": "^1.8.0",
+    "@electron/rebuild": "^3.7.2",
+    "@types/node": "^22.19.2",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "electron": "^39.2.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "wait-on": "^9.0.3"
+  }
+}

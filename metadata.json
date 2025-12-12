@@ -1,0 +1,9 @@
+{
+  "name": "Copy of Screen Studio Simulator",
+  "description": "A technical simulation of Screen Studio's core effects: Newtonian spring cursor physics, dynamic motion blur, and automatic zooming.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ]
+}
